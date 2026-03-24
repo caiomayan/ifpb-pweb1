@@ -10,7 +10,7 @@ const provaCaio = new Answer("Caio", ["a", "b", "c", "a", "b"]);
 const provaSerafim = new Answer("Serafim", ["c", "a", "d", "a", "c"]);
 const provaDouglas = new Answer("Douglas", ["a", "b", "a", "d", "c"]);
 // Adição das provas no exame
-prova.add(provaCaio); // No ato de adicionar a prova do aluno no exame, a nota será calculada e obtida.
+prova.add(provaCaio); // No ato de adicionar a prova do aluno no exame, a nota será calculada e obtida
 prova.add(provaSerafim);
 prova.add(provaDouglas);
 // Testes de saída
