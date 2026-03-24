@@ -1,3 +1,3 @@
-## Programação para Web I CSTSI - Repositório
+# Programação para Web I CSTSI - Repositório
 
-# Repositório de atividades da disciplina 2026.1
+Repositório de atividades da disciplina 2026.1
