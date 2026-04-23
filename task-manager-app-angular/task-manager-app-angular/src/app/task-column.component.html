@@ -1,0 +1,15 @@
+<div>
+  <h2 class="font-semibold mb-2">{{ title() }}</h2>
+  <div
+    class="space-y-3 min-h-[200px] p-3 bg-white rounded shadow-sm"
+    (dragover)="onDragOver($event)"
+    (drop)="onDrop($event)"
+  >
+    <app-task-card
+      *ngFor="let task of tasks()"
+      [task]="task"
+      (deleteTask)="deleteTask.emit($event)"
+      (editTask)="editTask.emit($event)"
+    ></app-task-card>
+  </div>
+</div>
